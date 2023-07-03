@@ -23,7 +23,7 @@ public class SelenideTest {
         String currentDate = generateData(5);
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.DELETE);
         $("[data-test-id='date'] input").sendKeys(currentDate);
-        $("[data-test-id='name'] input").setValue("Иванов Иван");
+        $("[data-test-id='name'] input").setValue("Пугачев Александр");
         $("[data-test-id='phone'] input").setValue("+79505550505");
         $("[data-test-id='agreement']").click();
         $("button.button").click();
